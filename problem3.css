@@ -1,0 +1,28 @@
+.FullForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactpage{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.contactdetails{
+    display: flex;
+    justify-content: center;
+}
+.Name{
+    display: flex;
+    justify-content: center;
+}
+.phonenumber{
+    display: flex;
+    justify-content: center;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+}
