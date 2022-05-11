@@ -1,0 +1,4 @@
+<input type="text" id="name" name="name">
+<input type="button" id="button" name="name" 
+ <input type="radio" id="salaried" name="Salaried" value="1">
+ <input type="chcekbox" id="salaried" name="Salaried" value="1">

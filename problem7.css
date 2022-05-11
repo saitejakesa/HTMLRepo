@@ -1,0 +1,125 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    border: black;
+    border: 0.5rem outset black;
+    padding-right: 10px;
+    width: 540px;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.firstname{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    
+}
+.lastname{
+    display: flex;
+    flex-direction: column;
+}
+.firstnameinput{
+    border: 1px solid black;
+    text-align: center;
+    float: left;
+    margin: 0;
+    padding: 0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    
+}
+.lastnameinput{
+    border: 1px solid black;
+    text-align: center;
+    float: left;
+    margin: 0;
+    padding: 0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+}
+.addressinput{
+    border: 1px solid black;
+    text-align: center;
+    float: left;
+    margin: 0;
+    padding: 0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.landmark{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.city{
+    display: flex;
+    flex-direction: column; 
+}
+.cityinput{
+    border: 1px solid black;
+    text-align: center;
+    float: left;
+    margin: 0;
+    padding: 0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.state{
+    display: flex;
+    flex-direction: column; 
+}
+.stateinput{
+    border: 1px solid black;
+    text-align: center;
+    float: left;
+    margin: 0;
+    padding: 0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.zip{
+    display: flex;
+    flex-direction: column; 
+}
+.zipinput{
+    border: 1px solid black;
+    text-align: center;
+    float: left;
+    margin: 0;
+    padding: 0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.radiobutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

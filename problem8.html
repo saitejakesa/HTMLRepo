@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;  
+            border-collapse: collapse;
+        
+        }
+        .row{
+            align-content: center;
+            justify-content: center;
+        }
+        .column{
+            align-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+        <div class="heading"><p>Health Chart</p></div>
+        <table >
+            <tr class="row">
+                <td class="column" rowspan="2">State Of Helth</td>
+                <td class="column" colspan="2">Fasting Value</td>
+                <td class="column">Aftereating</td>
+            </tr>
+            <tr class="row">
+                <td class="column">Minimum</td>
+                <td class="column">Maximum</td>
+                <td class="column">2hrs after eating</td>
+            </tr>
+            <tr class="row">
+                <td class="column">Healthy</td>
+                <td class="column">70</td>
+                <td class="column">100</td>
+                <td class="column">Less than 140</td>
+            </tr>
+            <tr class="row">
+                <td class="column">Pre-Diabetes</td>
+                <td class="column">101</td>
+                <td class="column">126</td>
+                <td class="column">140 to 200</td>
+            </tr>
+            <tr class="row">
+                <td class="column">Diabetes</td>
+                <td class="column">More than 126</td>
+                <td class="column">N/A</td>
+                <td class="column">Less than 200</td>
+            </tr>
+        </table>
+</body>
+</html>

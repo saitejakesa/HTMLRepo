@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="problem7.css">
+</head>
+<body>
+    <div class="container">
+    <form action="/action_page.php">
+        <div class="heading" id="heading1">
+            <h1>Yes! I want to subscribe to Mag-O-Zine</h1>
+        </div>
+        <div class="name">
+            <div class="firstname">
+                <input type="text" class="firstnameinput"placeholder="Joe">
+                <label for="firstname">First Name</label>
+            </div>
+            <div class="lastname">
+                <input type="text" class="lastnameinput"placeholder="Schemeggie">
+                <label for="lastname">Last Name</label>
+            </div>
+        </div>
+        <div class="address">
+                <input type="address" class="addressinput" placeholder="1001 Washington Street">
+                <label for="address">Address</label>
+        </div>
+        <div class="landmark">
+            <div class="city">
+                <input type="city" class="cityinput" placeholder="Ayetown">
+                <label for="city">City</label>
+            </div>
+            <div class="state">
+                <input type="state" class="stateinput"placeholder="CA">
+                <label for="state">State</label>
+            </div>
+            <div class="zip">
+                <input type="Zip" class="zipinput"placeholder="99999">
+                <label for="zip">zip</label>
+            </div>
+        </div>
+        <div class="radiobutton">
+                <legend>Subscribe for:</legend>
+                <div>
+                  <input type="radio" id="subscription1" name="subscription" value="1year($19.95)"
+                         checked>
+                  <label for="1year">1year($19.95)</label>
+                </div>
+            
+                <div>
+                  <input type="radio" id="subscription2" name="subscription" value="2years($35.00)">
+                  <label for="2years">2years($35.00)</label>
+                </div>
+        </div>
+        <div>
+            <legend>Send me more information about:</legend>
+        
+            <div>
+              <input type="checkbox" id="computer" name="information" checked>
+              <label for="computer">Computer-Zine</label>
+            </div>
+        
+            <div>
+              <input type="checkbox" id="fishing" name="information">
+              <label for="Fishing">Fishing-Zine</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="cat" name="information">
+                <label for="cat">Cat-O-Zine</label>
+              </div>
+        </div>
+
+    </form>
+</div>
+</body>
+</html>
