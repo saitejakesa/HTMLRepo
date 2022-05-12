@@ -1,4 +1,15 @@
-<input type="text" id="name" name="name">
-<input type="button" id="button" name="name" 
- <input type="radio" id="salaried" name="Salaried" value="1">
- <input type="chcekbox" id="salaried" name="Salaried" value="1">
+  <input type="text" id="fname" name="fname" value="John"><br><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+<input type="submit" value="Submit">
+
+
+a) The value attribute specifies the value of an <input> element.
+b) The value attribute is used differently for different input types:
+
+1. For "button", "reset", and "submit" - it defines the text on the button
+2. For "text", "password", and "hidden" - it defines the initial (default) value of the input field
+3. For "checkbox", "radio", "image" - it defines the value associated with the input (this is also the value that is sent on submit)
+
+Note: The value attribute cannot be used with <input type="file">.
+
+eg:  <input type="chcekbox" id="salaried" name="Salaried" value="1">

@@ -6,23 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        table, th, td {
+        table{
             border: 1px solid black;  
             border-collapse: collapse;
-        
+            width: 100%;
+            
         }
-        .row{
-            align-content: center;
+        td,th{
+            text-align: center;
+            border: 1px solid black;  
+            border-collapse: collapse;
+        }
+        .heading{
+            display: flex ;
             justify-content: center;
-        }
-        .column{
-            align-content: center;
             align-items: center;
         }
+
     </style>
 </head>
 <body>
-        <div class="heading"><p>Health Chart</p></div>
+        <div class="heading"><h3 class="textheading">Health Chart</h3></div>
         <table >
             <tr class="row">
                 <td class="column" rowspan="2">State Of Helth</td>
