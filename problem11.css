@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    display: flex;
+    border: 5px solid royalblue;
+    height: 70%;
+    width: 70%;
+    
+}
+#heading1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#formcontent{
+    display: flex; 
+}
+#allboxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#firstname{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30%;
+    width: 40%;   
+}
+#secondname{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30%;
+    width: 40%;
+}
+#address{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30%;
+    width: 40%;
+}
+#pincode{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30%;
+    width: 40%;
+}
+#Gender{
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    width: 40%;
+}
+#GenderCheck{
+    display: flex;
+    flex-direction: column ;
+}
+#items{
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    width: 40%;
+}
+#state{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30%;
+    width: 40%;
+}
+#country{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30%;
+    width: 40%;
+}
+#Submit{
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    width: 40%;
+    justify-content: center;
+}
